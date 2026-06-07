@@ -29,3 +29,22 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End centered dedications */
+
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+#chapter-9 header b{
+	text-transform: uppercase;
+}
