@@ -18,7 +18,7 @@ td{
 
 th + th,
 td + td{
-	padding-left: 1em;
+	padding-left: .5em;
 	text-align: right;
 }
 
@@ -42,8 +42,9 @@ footer{
 	font-variant: small-caps;
 }
 
-#introduction td:nth-child(3),
-#introduction td:nth-child(5),
+#introduction td:nth-child(2),
+#introduction td:nth-child(4),
+#introduction td:nth-child(6),
 #chapter-5 > table:first-of-type td:nth-child(2){
 	text-align: center;
 }
