@@ -36,9 +36,10 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh87000078</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A report on the state of the English proletariat in 1844.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;In 1842, a young &lt;a href="https://standardebooks.org/ebooks/friedrich-engels"&gt;Engels&lt;/a&gt; travelled to England to view the state of the working class in the rapidly expanding industrial cities of the nation. His observations over the course of the next twenty-one months, with a long stint in Manchester, lead to the 1845 publication of &lt;i&gt;The Condition of the Working Class in England&lt;/i&gt;. The work reported on the dire state of the proletariat, contextualised their struggle in the politics of the time, and made predictions for how the fragile tension must evolve. It remains to this day a highly detailed account of the abuses the industrial revolution brought to the English working class.&lt;/p&gt;
+			&lt;p&gt;First written for a German audience, the book didn’t see an official English translation until 1885. This edition is based on the 1892 London publication, and contains a preface by Engels explaining how the situation in England evolved in the intervening time, along with a powerful dedication to its workers. A major stepping stone on the route to Engel’s and &lt;a href="https://standardebooks.org/ebooks/karl-marx"&gt;Marx’s&lt;/a&gt; &lt;a href="https://standardebooks.org/ebooks/karl-marx_friedrich-engels/the-communist-manifesto/samuel-moore"&gt;&lt;i&gt;Communist Manifesto&lt;/i&gt;&lt;/a&gt;, &lt;i&gt;The Condition of the Working Class in England&lt;/i&gt; has been in continuous publication since its initial release.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/17306</dc:source>
