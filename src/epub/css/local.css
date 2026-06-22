@@ -52,3 +52,7 @@ footer{
 #chapter-9 header b{
 	text-transform: uppercase;
 }
+
+#note-130 table tr:last-child td{
+	padding-bottom: .5em;
+}
