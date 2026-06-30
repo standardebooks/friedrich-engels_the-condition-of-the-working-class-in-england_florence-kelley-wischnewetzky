@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/friedrich-engels/the-condition-of-the-working-class-in-england/florence-kelley-wischnewetzky</dc:identifier>
 		<dc:date>2026-06-22T21:32:05Z</dc:date>
 		<meta property="dcterms:modified">2026-06-22T21:32:05Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -36,7 +37,7 @@
 		<dc:subject id="subject-2">Working class -- Great Britain</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh87000078</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<dc:description id="description">A philosopher reports on the state of the proletariat in Victorian England.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In 1842, a young &lt;a href="https://standardebooks.org/ebooks/friedrich-engels"&gt;Friedrich Engels&lt;/a&gt; traveled to England to see the state of the working class in the nation’s rapidly expanding industrial cities. His observations over the course of the next twenty-one months lead to the 1845 publication of &lt;i&gt;The Condition of the Working Class in England&lt;/i&gt;. The book reports on the dire state of the proletariat, contextualizes their struggle within the politics of the time, and makes predictions for how the fragile tension between workers and capitalists must evolve. It remains to this day a highly detailed account of the abuses the industrial revolution brought upon the English working class.&lt;/p&gt;
@@ -45,18 +46,16 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/17306</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.22153</dc:source>
-		<meta property="se:production-notes">
-			• The title is set to the current common title, which omits the “in 1844”.
-			• As this is a ”facts” book, numerals have been left as is rather than converted to words.
-		</meta>
-		<meta property="se:word-count">113317</meta>
-		<meta property="se:reading-ease.flesch">50.7</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Condition_of_the_Working_Class_in_England</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/friedrich-engels_the-condition-of-the-working-class-in-england_florence-kelley-wischnewetzky</meta>
+		<meta property="schema:wordCount">113317</meta>
+		<meta property="schema:educationalLevel">50.7</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Condition_of_the_Working_Class_in_England" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/friedrich-engels_the-condition-of-the-working-class-in-england_florence-kelley-wischnewetzky" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Friedrich Engels</dc:creator>
 		<meta property="file-as" refines="#author">Engels, Friedrich</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Friedrich_Engels</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79023029</meta>
+		<link href="https://en.wikipedia.org/wiki/Friedrich_Engels" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79023029.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
@@ -64,21 +63,21 @@
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="translator">Florence Kelley Wischnewetzky</dc:contributor>
 		<meta property="file-as" refines="#translator">Wischnewetzky, Florence Kelley</meta>
-		<meta property="se:name.person.full-name" refines="#translator">Florence Molthrop Kelley</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Florence_Kelley</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n50060216</meta>
+		<meta property="schema:alternateName" refines="#translator">Florence Molthrop Kelley</meta>
+		<link href="https://en.wikipedia.org/wiki/Florence_Kelley" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50060216.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">George Frederic Watts</dc:contributor>
 		<meta property="file-as" refines="#artist">Watts, George Frederic</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Frederic_Watts</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50043705</meta>
+		<link href="https://en.wikipedia.org/wiki/George_Frederic_Watts" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50043705.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Price</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Price, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -87,7 +86,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
